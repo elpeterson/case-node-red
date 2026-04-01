@@ -3,7 +3,7 @@
         "id": "f10ac060eea27bb3",
         "type": "tab",
         "label": "Family Bell",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -11,7 +11,7 @@
         "id": "268e18aa217b4aab",
         "type": "tab",
         "label": "Thermostats",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -19,7 +19,7 @@
         "id": "f890255551479538",
         "type": "tab",
         "label": "Lights / Switches",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -27,7 +27,7 @@
         "id": "1b0d2a649eef07c6",
         "type": "tab",
         "label": "Presence",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -35,7 +35,7 @@
         "id": "d1b7e22ea16d084a",
         "type": "tab",
         "label": "Allergy",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -43,7 +43,7 @@
         "id": "1a80cdb33264de82",
         "type": "tab",
         "label": "Maintenance",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -51,7 +51,7 @@
         "id": "3e6814fd0f8088e6",
         "type": "tab",
         "label": "Transmogrifier",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
