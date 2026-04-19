@@ -1,13 +1,5 @@
 [
     {
-        "id": "f10ac060eea27bb3",
-        "type": "tab",
-        "label": "Family Bell",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "9cbe415243861f49",
         "type": "tab",
         "label": "Family Bell Edit",
@@ -34,7 +26,7 @@
     {
         "id": "f890255551479538",
         "type": "tab",
-        "label": "Lights / Switches",
+        "label": "Lights",
         "disabled": false,
         "locked": true,
         "info": "",
@@ -82,7 +74,7 @@
         "label": "Transmogrifier",
         "disabled": false,
         "locked": true,
-        "info": "",
+        "info": "Bambu Lab X1C (Transmogrifier) — print status, stage error pauses, HMS hardware errors, and print error notifications via HA mobile app.",
         "env": []
     },
     {
@@ -188,73 +180,6 @@
         "y": 179,
         "w": 852,
         "h": 302
-    },
-    {
-        "id": "99e9a9a72c807ddf",
-        "type": "group",
-        "z": "f10ac060eea27bb3",
-        "name": "Morning Alarm",
-        "style": {
-            "stroke": "#92d04f",
-            "label": true
-        },
-        "nodes": [
-            "9ffb467613ba286b",
-            "8ab82e132915bf6f",
-            "698e3878397ac4d1",
-            "c4b92cb115659214",
-            "f4caee45564c1125",
-            "9b3888e33236f394",
-            "28684e04674d8e94",
-            "72d47b1c8fde27a6",
-            "a20cb1c6daa400d6",
-            "7d0567e8f594bbb4",
-            "10e208d39b6a1a4b",
-            "d4199c4e6580a605",
-            "6528f6a488b27e91",
-            "0a01c38095352157",
-            "b8282ef9205e7274",
-            "7bbcaf77b74ef651",
-            "92ed67ca96840135",
-            "fd7bbe8adcbcca96",
-            "52777370f293b943",
-            "a95b3c4705939417",
-            "72fb77f0f44855f3",
-            "f66ea1e8b0fb77d2",
-            "e736a02a9baabc51",
-            "4308eeb55605e12c",
-            "72f13f525fe9d04b",
-            "fb9b77606a5a0b29",
-            "1eacb125b7f834e0",
-            "0cadcf5adce815d3",
-            "d5b77ba1cb6ad2a5",
-            "773461aab2ffb19b",
-            "440e4aac48c4b4ea",
-            "8448672b711eb3ce",
-            "adb670f02158d26f",
-            "1cfadee5ffc8d4d8",
-            "35cb56eb129944c6",
-            "fa0216fd49d4af8e",
-            "7f71baf3b6377c1b",
-            "eb3550c96091b48f",
-            "a480f65e15928547",
-            "35327d693d8240e7",
-            "33d2697afbf77b47",
-            "86e5932a65362b9a",
-            "81865fd4430f4ca4",
-            "969a94dce7cc8633",
-            "d152782593cf0859",
-            "41af103e6dbdea9c",
-            "bba20aaffa7980b9",
-            "440c4b584743884f",
-            "f2bfff315dae2243",
-            "cc84076d5419e38f",
-            "79c17ee3aa0d80f8"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 2292,
-        "h": 502
     },
     {
         "id": "6c232881c479efef",
@@ -391,7 +316,6 @@
             "369c46ae5a1d5be4",
             "39877107c6bc7f23",
             "7f28cda89d620332",
-            "9ae97f649bf97bef",
             "a9ac1e438ab8775e",
             "edb6a3f2ad3f171d",
             "83ffbbf13472094b"
@@ -441,172 +365,6 @@
         "y": 639,
         "w": 832,
         "h": 82
-    },
-    {
-        "id": "57a9885f3ee3f82a",
-        "type": "group",
-        "z": "9cbe415243861f49",
-        "name": "Morning Alarm",
-        "style": {
-            "stroke": "#92d04f",
-            "label": true
-        },
-        "nodes": [
-            "a002f20c956ba89f",
-            "89b0ee06123ccd9b",
-            "08ce2d4d98dab4d9",
-            "77fcc7477b14f571",
-            "988be46edd6b9cc9",
-            "ffcc992a0bc804fb",
-            "c6c73247f01557ce",
-            "eaf798d6e0556b1d",
-            "e5c25fb7ec36de50",
-            "4113a6ad4f879042",
-            "a34902ba08819e6f",
-            "0caf33910ca729f0",
-            "ba037fb181eea852",
-            "1e6793872e3262bd",
-            "a7a548de606754e1",
-            "e4dc3e1891ebd30f",
-            "b18efc20b84dd684",
-            "629bfee2b9dd6dcc",
-            "50e1af5954e0ef37",
-            "d2b8c99d877e87e3",
-            "5a43bf87a38199f9",
-            "3383e5b570e798ef",
-            "be3f30555eb986fd",
-            "578cf098f40b0a16",
-            "5a8f052e47d81f42",
-            "fc57623bfd007881",
-            "ff4eabea89a33eb8",
-            "5bd43ae0a27b89a9"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 2292,
-        "h": 442
-    },
-    {
-        "id": "c9677afc28bdf995",
-        "type": "group",
-        "z": "9cbe415243861f49",
-        "name": "Kids Sunrise",
-        "style": {
-            "stroke": "#ffcc66",
-            "label": true
-        },
-        "nodes": [
-            "2243a90abb770a1b",
-            "d6dc2fe284489823",
-            "da4bba94410b2556",
-            "ee0ab7e6de853b8c",
-            "a9de151c15292f9b",
-            "3c025102d2d23005",
-            "e939bcb4ab01bfe7",
-            "5e72f5be3e568f5d",
-            "38c90957649bc209"
-        ],
-        "x": 14,
-        "y": 499,
-        "w": 1162,
-        "h": 242
-    },
-    {
-        "id": "371dbc674915aea3",
-        "type": "group",
-        "z": "9cbe415243861f49",
-        "name": "Kids Sunset / Bedtime",
-        "style": {
-            "stroke": "#ff8800",
-            "label": true
-        },
-        "nodes": [
-            "96958282e76278c4",
-            "22a7aed4c2fd2617",
-            "b1216a62c48467f4",
-            "85e7236ae3ac79c8",
-            "d43d40e0e1e090ca"
-        ],
-        "x": 14,
-        "y": 779,
-        "w": 922,
-        "h": 142
-    },
-    {
-        "id": "6c20c5685d5e607b",
-        "type": "group",
-        "z": "9cbe415243861f49",
-        "name": "Nightlight Manual Control",
-        "style": {
-            "stroke": "#6633cc",
-            "label": true
-        },
-        "nodes": [
-            "a01be418f9594a2e",
-            "1a17ece80e81e312",
-            "7233a7aa2446b777",
-            "ca8c86802d64134c",
-            "26646ed9cad25b25",
-            "c993c34d823203b4",
-            "bb289bc07f58a117",
-            "369b1f6d3eed47d7",
-            "f1f0250a0e52d32c",
-            "ee30f227cea34c31"
-        ],
-        "x": 14,
-        "y": 959,
-        "w": 782,
-        "h": 322
-    },
-    {
-        "id": "2deaa86bacef50d8",
-        "type": "group",
-        "z": "9cbe415243861f49",
-        "name": "Error Handler",
-        "style": {
-            "stroke": "#cc0000",
-            "label": true
-        },
-        "nodes": [
-            "51031855376e7778",
-            "8683865b7289aa3e",
-            "f5a35eb858545ff4"
-        ],
-        "x": 14,
-        "y": 1319,
-        "w": 652,
-        "h": 82
-    },
-    {
-        "id": "46d89de9daf1322b",
-        "type": "group",
-        "z": "9cbe415243861f49",
-        "name": "Morning Briefing",
-        "style": {
-            "stroke": "#0099cc",
-            "label": true
-        },
-        "nodes": [
-            "738083c329e475b3",
-            "0bba0bd6df11c20f",
-            "7e979cdba50f0c24",
-            "c3ba15b1ffede50f",
-            "03ab86991c24c299",
-            "f2e0be69b492e27f",
-            "254621f46b6e42a9",
-            "ffbaa0d05f4efbd8",
-            "136fb99cc2621414",
-            "44253c149e6c36b5",
-            "000ce80788614143",
-            "2da25324598d6d03",
-            "2021469b61ed4afe",
-            "48dc010ae661154f",
-            "d687af7c750883de"
-        ],
-        "x": 14,
-        "y": 1439,
-        "w": 1712,
-        "h": 282
     },
     {
         "id": "17d1b971cb30144a",
@@ -728,6 +486,176 @@
         "y": 619,
         "w": 292,
         "h": 202
+    },
+    {
+        "id": "57a9885f3ee3f82a",
+        "type": "group",
+        "z": "9cbe415243861f49",
+        "name": "Morning Alarm",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "a002f20c956ba89f",
+            "08ce2d4d98dab4d9",
+            "77fcc7477b14f571",
+            "988be46edd6b9cc9",
+            "ffcc992a0bc804fb",
+            "c6c73247f01557ce",
+            "eaf798d6e0556b1d",
+            "e5c25fb7ec36de50",
+            "4113a6ad4f879042",
+            "a34902ba08819e6f",
+            "0caf33910ca729f0",
+            "ba037fb181eea852",
+            "1e6793872e3262bd",
+            "a7a548de606754e1",
+            "d2b8c99d877e87e3",
+            "5a43bf87a38199f9",
+            "3383e5b570e798ef",
+            "be3f30555eb986fd",
+            "578cf098f40b0a16",
+            "5a8f052e47d81f42",
+            "fc57623bfd007881",
+            "ff4eabea89a33eb8",
+            "5bd43ae0a27b89a9",
+            "6ff36c7b14500ee3",
+            "76d1abb1f4bdf583"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 2232,
+        "h": 442
+    },
+    {
+        "id": "c9677afc28bdf995",
+        "type": "group",
+        "z": "9cbe415243861f49",
+        "name": "Kids Sunrise",
+        "style": {
+            "stroke": "#ffcc66",
+            "label": true
+        },
+        "nodes": [
+            "2243a90abb770a1b",
+            "da4bba94410b2556",
+            "ee0ab7e6de853b8c",
+            "a9de151c15292f9b",
+            "3c025102d2d23005",
+            "e939bcb4ab01bfe7",
+            "5e72f5be3e568f5d",
+            "38c90957649bc209",
+            "081dfb451637b019"
+        ],
+        "x": 14,
+        "y": 479,
+        "w": 942,
+        "h": 242
+    },
+    {
+        "id": "371dbc674915aea3",
+        "type": "group",
+        "z": "9cbe415243861f49",
+        "name": "Kids Sunset / Bedtime",
+        "style": {
+            "stroke": "#ff8800",
+            "label": true
+        },
+        "nodes": [
+            "96958282e76278c4",
+            "b1216a62c48467f4",
+            "85e7236ae3ac79c8",
+            "d43d40e0e1e090ca",
+            "86296c5964151ffe",
+            "d1418a6965c00c23",
+            "c5b23749e5d94593",
+            "bcd95a317ef5e20c",
+            "2014e6ed38652edb",
+            "b51272f970838212",
+            "46a33a76ce72bd35",
+            "bc28346e32289766"
+        ],
+        "x": 14,
+        "y": 759,
+        "w": 1472,
+        "h": 142
+    },
+    {
+        "id": "6c20c5685d5e607b",
+        "type": "group",
+        "z": "9cbe415243861f49",
+        "name": "Nightlight Manual Control",
+        "style": {
+            "stroke": "#6633cc",
+            "label": true
+        },
+        "nodes": [
+            "a01be418f9594a2e",
+            "1a17ece80e81e312",
+            "7233a7aa2446b777",
+            "ca8c86802d64134c",
+            "26646ed9cad25b25",
+            "c993c34d823203b4",
+            "bb289bc07f58a117",
+            "369b1f6d3eed47d7",
+            "f1f0250a0e52d32c",
+            "ee30f227cea34c31"
+        ],
+        "x": 14,
+        "y": 919,
+        "w": 782,
+        "h": 322
+    },
+    {
+        "id": "2deaa86bacef50d8",
+        "type": "group",
+        "z": "9cbe415243861f49",
+        "name": "Error Handler",
+        "style": {
+            "stroke": "#cc0000",
+            "label": true
+        },
+        "nodes": [
+            "51031855376e7778",
+            "8683865b7289aa3e",
+            "f5a35eb858545ff4"
+        ],
+        "x": 14,
+        "y": 1259,
+        "w": 652,
+        "h": 82
+    },
+    {
+        "id": "46d89de9daf1322b",
+        "type": "group",
+        "z": "9cbe415243861f49",
+        "name": "Morning Briefing",
+        "style": {
+            "stroke": "#0099cc",
+            "label": true
+        },
+        "nodes": [
+            "738083c329e475b3",
+            "0bba0bd6df11c20f",
+            "7e979cdba50f0c24",
+            "c3ba15b1ffede50f",
+            "03ab86991c24c299",
+            "f2e0be69b492e27f",
+            "254621f46b6e42a9",
+            "ffbaa0d05f4efbd8",
+            "136fb99cc2621414",
+            "44253c149e6c36b5",
+            "000ce80788614143",
+            "2da25324598d6d03",
+            "2021469b61ed4afe",
+            "48dc010ae661154f",
+            "d687af7c750883de"
+        ],
+        "x": 14,
+        "y": 1359,
+        "w": 1712,
+        "h": 282
     },
     {
         "id": "ca9ba5ca070f5117",
@@ -944,1727 +872,6 @@
         "wires": []
     },
     {
-        "id": "9ffb467613ba286b",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Alarm MBDR",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.alarm_clock_mbdr",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1010,
-        "y": 260,
-        "wires": [
-            [
-                "72fb77f0f44855f3"
-            ],
-            [
-                "f66ea1e8b0fb77d2"
-            ]
-        ]
-    },
-    {
-        "id": "8ab82e132915bf6f",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Alarm Gavin",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.alarm_clock_gavn",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1010,
-        "y": 180,
-        "wires": [
-            [
-                "52777370f293b943"
-            ],
-            [
-                "a95b3c4705939417"
-            ]
-        ]
-    },
-    {
-        "id": "698e3878397ac4d1",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Alarm Izzy",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.alarm_clock_izzy",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1010,
-        "y": 100,
-        "wires": [
-            [
-                "fd7bbe8adcbcca96"
-            ],
-            [
-                "92ed67ca96840135"
-            ]
-        ]
-    },
-    {
-        "id": "c4b92cb115659214",
-        "type": "ha-time",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Kid's Wake Up",
-        "server": "db559b8fb32ae329",
-        "version": 4,
-        "exposeAsEntityConfig": "",
-        "entityId": "input_datetime.kids_wake_up",
-        "property": "",
-        "offset": "0",
-        "offsetType": "num",
-        "offsetUnits": "minutes",
-        "randomOffset": false,
-        "repeatDaily": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "sunday": true,
-        "monday": true,
-        "tuesday": true,
-        "wednesday": true,
-        "thursday": true,
-        "friday": true,
-        "saturday": true,
-        "ignorePastDate": false,
-        "x": 120,
-        "y": 80,
-        "wires": [
-            [
-                "35cb56eb129944c6"
-            ]
-        ]
-    },
-    {
-        "id": "f4caee45564c1125",
-        "type": "function",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Day of the Week",
-        "func": "var date = new Date();\n\nvar daynum = date.getDay();\n\nmsg.payload = daynum;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 180,
-        "y": 240,
-        "wires": [
-            [
-                "1cfadee5ffc8d4d8"
-            ]
-        ]
-    },
-    {
-        "id": "9b3888e33236f394",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "IZZY Wake Up",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "tts.cloud_say",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.mass_isabelles_speaker\",\"message\":\"{{payload}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "tts",
-        "service": "cloud_say",
-        "x": 2140,
-        "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "28684e04674d8e94",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "GAVN Wake Up",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "tts.cloud_say",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.mass_gavins_speaker\",\"message\":\"{{payload}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "tts",
-        "service": "cloud_say",
-        "x": 2140,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "72d47b1c8fde27a6",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Turn On Izzy's Lamp",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "light.izzy_lamp"
-        ],
-        "labelId": [],
-        "data": "{\"brightness_pct\":\"100\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "light",
-        "service": "turn_on",
-        "x": 1720,
-        "y": 60,
-        "wires": [
-            [
-                "10e208d39b6a1a4b"
-            ]
-        ]
-    },
-    {
-        "id": "a20cb1c6daa400d6",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Turn On Gavin's Lamps",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "light.gavin_lamp"
-        ],
-        "labelId": [],
-        "data": "{\"brightness_pct\":\"100\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "light",
-        "service": "turn_on",
-        "x": 1730,
-        "y": 140,
-        "wires": [
-            [
-                "d4199c4e6580a605"
-            ]
-        ]
-    },
-    {
-        "id": "7d0567e8f594bbb4",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Alarm Speaker",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "music_assistant.play_media",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.alarm_speakers"
-        ],
-        "labelId": [],
-        "data": "{\"media_id\":\"{{url}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "music_assistant",
-        "service": "play_media",
-        "x": 2140,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "10e208d39b6a1a4b",
-        "type": "function",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "RandomQuote()",
-        "func": "msg.topic = [\n  \"Rise and shine!\",\n  \"Its time to get up and seize the day!\",\n  \"The early bird gets the worm.\",\n  \"Dont be a lazybones.\",\n  \"Its a beautiful day outside.\",\n  \"The sun is shining, the birds are singing, and its time to wake up!\",\n  \"Wakey wakey, eggs and bakey!\",\n  \"Its time to rise and grind.\",\n  \"Time to get out of bed and start your day.\",\n  \"The day is calling, so dont be late.\",\n  \"Wake up, sleepyhead!\",\n  \"Its time to face the world.\",\n  \"The alarm clock has spoken.\",\n  \"Its time to get moving.\",\n  \"Dont miss out on all the fun today!\",\n  \"The day is here, so make the most of it.\",\n  \"Wake up and smell the coffee.\",\n  \"Its time to start your engines.\",\n  \"The day is yours, so go out and conquer it!\",\n  \"Rise and shine, buttercup!\",\n  \"Its time to get out of bed and start living.\",\n  \"The day is waiting for you.\",\n  \"Wake up and live your life!\",\n  \"The world is your oyster.\",\n  \"Wake up and make it a great day!\",\n];\n\nfunction getRandomItem(wakeUpQuotes) {\n  // Generate a random number between 0 and the length of the array\n    var randomIndex = Math.floor(Math.random() * wakeUpQuotes.length);\n\n  // Return the item at the random index\n    msg.payload = wakeUpQuotes[randomIndex];\n    return msg;\n}\n\ngetRandomItem(msg.topic);\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1960,
-        "y": 60,
-        "wires": [
-            [
-                "9b3888e33236f394"
-            ]
-        ]
-    },
-    {
-        "id": "d4199c4e6580a605",
-        "type": "function",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "RandomQuote()",
-        "func": "msg.topic = [\n  // Classics & Originals\n  \"Rise and shine!\",\n  \"It's time to get up and seize the day!\",\n  \"The early bird gets the worm.\",\n  \"It's a beautiful day outside.\",\n  \"The sun is shining, the birds are singing, and it's time to wake up!\",\n  \"Wakey wakey, eggs and bakey!\",\n  \"It's time to rise and grind.\",\n  \"Time to get out of bed and start your day.\",\n  \"The day is calling, so don't be late.\",\n  \"Wake up, sleepyhead!\",\n  \"It's time to face the world.\",\n  \"The alarm clock has spoken.\",\n  \"It's time to get moving.\",\n  \"Don't miss out on all the fun today!\",\n  \"The day is here, so make the most of it.\",\n  \"Wake up and smell the coffee.\",\n  \"The day is yours, so go out and conquer it!\",\n  \"Rise and shine, buttercup!\",\n  \"The day is waiting for you.\",\n  \"Wake up and make it a great day!\",\n  \"The world is your oyster.\",\n\n  // Gentle & Sweet\n  \"Good morning, sunshine.\",\n  \"The morning is here, and it's happy to see you.\",\n  \"Time to wake up, my little star.\",\n  \"A brand new day is here to give you a hug.\",\n  \"Wake up, sleepyhead. The world missed you.\",\n  \"Good morning, my favorite person to wake up.\",\n  \"The sun has peeked over the horizon just to say hello to you.\",\n\n  // Fun & Silly\n  \"Beep boop! This is your robot butler, requesting you to wake up.\",\n  \"The pillow has declared the sleeping competition is over. You won!\",\n  \"Time to activate daytime mode!\",\n  \"Wakey wakey, sleepy snakey!\",\n  \"Come on, sleepyhead, the toast is getting nervous.\",\n  \"Time to unleash the breakfast monster!\",\n  \"The floor is lava... but first, you have to get out of bed!\",\n  \"I hear pancakes calling your name...\",\n  \"The wiggle-out-of-bed challenge starts now!\",\n\n  // Adventurous & Exciting\n  \"Good morning, adventurer! A new quest awaits.\",\n  \"Your mission, should you choose to accept it, is to have an amazing day.\",\n  \"Captain, the ship of 'Today' is ready to set sail!\",\n  \"Time to assemble, little hero! The day needs saving.\",\n  \"Greetings, Earthling! It's time to explore Planet Day.\",\n  \"Let the great adventure of today begin!\",\n  \"Your daily mission briefing is ready. Let's go!\",\n\n  // Motivational & Empowering\n  \"Time to wake up and be awesome!\",\n  \"Let's see what amazing things you'll do today.\",\n  \"A new day means new ideas and new fun. Let's go!\",\n  \"Ready to fill this day with your sparkle?\",\n  \"It's a new day to be your amazing self.\",\n  \"Let's make some happy happen today.\",\n  \"Wake up your body, wake up your mind, it's a great day you'll find!\"\n];\n\nfunction getRandomItem(wakeUpQuotes) {\n  // Generate a random number between 0 and the length of the array\n    var randomIndex = Math.floor(Math.random() * wakeUpQuotes.length);\n\n  // Return the item at the random index\n    msg.payload = wakeUpQuotes[randomIndex];\n    return msg;\n}\n\ngetRandomItem(msg.topic);\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1960,
-        "y": 140,
-        "wires": [
-            [
-                "28684e04674d8e94"
-            ]
-        ]
-    },
-    {
-        "id": "6528f6a488b27e91",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Shuffle Media",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.shuffle_set",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [
-            "062c3dbf8041e0d698ab5a821d6b3962"
-        ],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"shuffle\":true}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "shuffle_set",
-        "x": 1720,
-        "y": 320,
-        "wires": [
-            [
-                "fb9b77606a5a0b29"
-            ]
-        ]
-    },
-    {
-        "id": "0a01c38095352157",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "IZZY | Sunrise",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "script.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "script.ceiling_light_sunrise_izzy"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "script",
-        "service": "turn_on",
-        "x": 1700,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b8282ef9205e7274",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "GAVN | Sunrise",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "script.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "script.ceiling_light_sunrise_gavn"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "script",
-        "service": "turn_on",
-        "x": 1700,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7bbcaf77b74ef651",
-        "type": "delay",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "180",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1490,
-        "y": 60,
-        "wires": [
-            [
-                "72d47b1c8fde27a6"
-            ]
-        ]
-    },
-    {
-        "id": "92ed67ca96840135",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Mute | Izzy",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.volume_set",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.isabelles_speaker"
-        ],
-        "labelId": [],
-        "data": "{\"volume_level\":\"0.0\"}",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "volume_set",
-        "x": 1210,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fd7bbe8adcbcca96",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Normalize | Izzy",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.volume_set",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.isabelles_speaker"
-        ],
-        "labelId": [],
-        "data": "{\"volume_level\":\"0.35\"}",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "volume_set",
-        "x": 1220,
-        "y": 80,
-        "wires": [
-            [
-                "7bbcaf77b74ef651",
-                "0a01c38095352157"
-            ]
-        ]
-    },
-    {
-        "id": "52777370f293b943",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Normalize | Gavin",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.volume_set",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.gavins_speaker"
-        ],
-        "labelId": [],
-        "data": "{\"volume_level\":\"0.35\"}",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "volume_set",
-        "x": 1230,
-        "y": 160,
-        "wires": [
-            [
-                "b8282ef9205e7274",
-                "4308eeb55605e12c"
-            ]
-        ]
-    },
-    {
-        "id": "a95b3c4705939417",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Mute | Gavin",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.volume_set",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.gavins_speaker"
-        ],
-        "labelId": [],
-        "data": "{\"volume_level\":\"0.0\"}",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "volume_set",
-        "x": 1210,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "72fb77f0f44855f3",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Normalize | MBDR",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.volume_set",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.main_bedroom_speaker"
-        ],
-        "labelId": [],
-        "data": "{\"volume_level\":\"0.35\"}",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "volume_set",
-        "x": 1230,
-        "y": 240,
-        "wires": [
-            [
-                "72f13f525fe9d04b"
-            ]
-        ]
-    },
-    {
-        "id": "f66ea1e8b0fb77d2",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Mute | MBDR",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.volume_set",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.isabelles_speaker",
-            "media_player.gavins_speaker",
-            "media_player.main_bedroom_speaker"
-        ],
-        "labelId": [],
-        "data": "{\"volume_level\":\"0.0\"}",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "volume_set",
-        "x": 1220,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e736a02a9baabc51",
-        "type": "delay",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "45",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1520,
-        "y": 320,
-        "wires": [
-            [
-                "6528f6a488b27e91"
-            ]
-        ]
-    },
-    {
-        "id": "4308eeb55605e12c",
-        "type": "delay",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "180",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1490,
-        "y": 140,
-        "wires": [
-            [
-                "a20cb1c6daa400d6"
-            ]
-        ]
-    },
-    {
-        "id": "72f13f525fe9d04b",
-        "type": "delay",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "180",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1490,
-        "y": 220,
-        "wires": [
-            [
-                "e736a02a9baabc51"
-            ]
-        ]
-    },
-    {
-        "id": "fb9b77606a5a0b29",
-        "type": "function",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "RandPlaylist()",
-        "func": "\nconst options = [\n    'spotify:playlist:37i9dQZF1E375ju8n547l8', // Daily Mix 1\n    'spotify:playlist:37i9dQZF1E35r4IalTW8E9', // Daily Mix 2\n    'spotify:playlist:37i9dQZF1E37Zpje6YDmQh', // Daily Mix 3\n    'spotify:playlist:37i9dQZF1E36d4yIZYsGEt', // Daily Mix 4\n    'spotify:playlist:playlist/37i9dQZF1E39Xt1MJIH151', // Daily Mix 5\n    'spotify:playlist:37i9dQZF1E36Y3P1zfdePL' // Daily Mix 6\n];\nfunction getRandomOption() {\n    const randomIndex = Math.floor(Math.random() * options.length);\n\n    return options[randomIndex];\n}\n\nmsg.url = getRandomOption();\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1920,
-        "y": 320,
-        "wires": [
-            [
-                "86e5932a65362b9a",
-                "79c17ee3aa0d80f8"
-            ]
-        ]
-    },
-    {
-        "id": "1eacb125b7f834e0",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Monday",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.monday",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 540,
-        "y": 100,
-        "wires": [
-            [
-                "9ffb467613ba286b",
-                "fa0216fd49d4af8e"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "0cadcf5adce815d3",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Wednesday",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.wednesday",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 550,
-        "y": 180,
-        "wires": [
-            [
-                "9ffb467613ba286b",
-                "a480f65e15928547"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "d5b77ba1cb6ad2a5",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Tuesday",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.tuesday",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 540,
-        "y": 140,
-        "wires": [
-            [
-                "9ffb467613ba286b",
-                "eb3550c96091b48f"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "773461aab2ffb19b",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Thursday",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.thursday",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 540,
-        "y": 220,
-        "wires": [
-            [
-                "9ffb467613ba286b",
-                "35327d693d8240e7"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "440e4aac48c4b4ea",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Saturday",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.saturday",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 540,
-        "y": 300,
-        "wires": [
-            [
-                "698e3878397ac4d1",
-                "8ab82e132915bf6f",
-                "9ffb467613ba286b"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "8448672b711eb3ce",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Friday",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.friday",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 530,
-        "y": 260,
-        "wires": [
-            [
-                "9ffb467613ba286b",
-                "33d2697afbf77b47"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "adb670f02158d26f",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Sunday",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.sunday",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "string",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 540,
-        "y": 60,
-        "wires": [
-            [
-                "698e3878397ac4d1",
-                "8ab82e132915bf6f",
-                "9ffb467613ba286b"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "1cfadee5ffc8d4d8",
-        "type": "switch",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "2",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "3",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "4",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "5",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "6",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 7,
-        "x": 370,
-        "y": 180,
-        "wires": [
-            [
-                "adb670f02158d26f"
-            ],
-            [
-                "1eacb125b7f834e0"
-            ],
-            [
-                "d5b77ba1cb6ad2a5"
-            ],
-            [
-                "0cadcf5adce815d3"
-            ],
-            [
-                "773461aab2ffb19b"
-            ],
-            [
-                "8448672b711eb3ce"
-            ],
-            [
-                "440e4aac48c4b4ea"
-            ]
-        ]
-    },
-    {
-        "id": "35cb56eb129944c6",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Alarm On",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.alarm_clock",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 140,
-        "y": 160,
-        "wires": [
-            [
-                "f4caee45564c1125"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "fa0216fd49d4af8e",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "No School",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.no_school",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 770,
-        "y": 100,
-        "wires": [
-            [],
-            [
-                "698e3878397ac4d1",
-                "8ab82e132915bf6f"
-            ]
-        ]
-    },
-    {
-        "id": "7f71baf3b6377c1b",
-        "type": "subflow:d0a82c2bf338c781",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "School Calendar Check",
-        "x": 640,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "eb3550c96091b48f",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "No School",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.no_school",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 770,
-        "y": 140,
-        "wires": [
-            [],
-            [
-                "8ab82e132915bf6f",
-                "698e3878397ac4d1"
-            ]
-        ]
-    },
-    {
-        "id": "a480f65e15928547",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "No School",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.no_school",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 770,
-        "y": 180,
-        "wires": [
-            [],
-            [
-                "8ab82e132915bf6f",
-                "698e3878397ac4d1"
-            ]
-        ]
-    },
-    {
-        "id": "35327d693d8240e7",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "No School",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.no_school",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 770,
-        "y": 220,
-        "wires": [
-            [],
-            [
-                "8ab82e132915bf6f",
-                "698e3878397ac4d1"
-            ]
-        ]
-    },
-    {
-        "id": "33d2697afbf77b47",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "No School",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.no_school",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 770,
-        "y": 260,
-        "wires": [
-            [],
-            [
-                "8ab82e132915bf6f",
-                "698e3878397ac4d1"
-            ]
-        ]
-    },
-    {
-        "id": "86e5932a65362b9a",
-        "type": "api-current-state",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "No School",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.no_school",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 2010,
-        "y": 260,
-        "wires": [
-            [
-                "7d0567e8f594bbb4"
-            ],
-            [
-                "81865fd4430f4ca4"
-            ]
-        ]
-    },
-    {
-        "id": "81865fd4430f4ca4",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Main Bedroom Speaker",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "music_assistant.play_media",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.main_bedroom_speaker"
-        ],
-        "labelId": [],
-        "data": "{\"media_id\":\"{{url}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "music_assistant",
-        "service": "play_media",
-        "x": 2170,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "969a94dce7cc8633",
-        "type": "inject",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Test After Delays",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 480,
-        "wires": [
-            [
-                "6528f6a488b27e91"
-            ]
-        ]
-    },
-    {
-        "id": "d152782593cf0859",
-        "type": "inject",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Test From Alarm Gate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 360,
-        "wires": [
-            [
-                "35cb56eb129944c6"
-            ]
-        ]
-    },
-    {
-        "id": "41af103e6dbdea9c",
-        "type": "inject",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Test From Day of Week Gate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bba20aaffa7980b9",
-        "type": "inject",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "Test From Where To Alarm Gate",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 190,
-        "y": 440,
-        "wires": [
-            [
-                "698e3878397ac4d1",
-                "8ab82e132915bf6f",
-                "9ffb467613ba286b"
-            ]
-        ]
-    },
-    {
-        "id": "440c4b584743884f",
-        "type": "inject",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1880,
-        "y": 420,
-        "wires": [
-            [
-                "6528f6a488b27e91"
-            ]
-        ]
-    },
-    {
-        "id": "f2bfff315dae2243",
-        "type": "inject",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1880,
-        "y": 480,
-        "wires": [
-            [
-                "cc84076d5419e38f"
-            ]
-        ]
-    },
-    {
-        "id": "cc84076d5419e38f",
-        "type": "api-call-service",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_stop",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.alarm_speakers"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "media_player",
-        "service": "media_stop",
-        "x": 2130,
-        "y": 480,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "79c17ee3aa0d80f8",
-        "type": "debug",
-        "z": "f10ac060eea27bb3",
-        "g": "99e9a9a72c807ddf",
-        "name": "RandPlaylist",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2090,
-        "y": 420,
-        "wires": []
-    },
-    {
         "id": "a002f20c956ba89f",
         "type": "ha-time",
         "z": "9cbe415243861f49",
@@ -2712,7 +919,7 @@
         "y": 80,
         "wires": [
             [
-                "89b0ee06123ccd9b"
+                "08ce2d4d98dab4d9"
             ]
         ]
     },
@@ -2761,44 +968,11 @@
         "saturday": true,
         "ignorePastDate": false,
         "x": 110,
-        "y": 580,
-        "wires": [
-            [
-                "d6dc2fe284489823"
-            ]
-        ]
-    },
-    {
-        "id": "d6dc2fe284489823",
-        "type": "api-current-state",
-        "z": "9cbe415243861f49",
-        "g": "c9677afc28bdf995",
-        "name": "Both Home?",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.bothhome",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 320,
-        "y": 580,
+        "y": 560,
         "wires": [
             [
                 "da4bba94410b2556"
-            ],
-            []
+            ]
         ]
     },
     {
@@ -2825,8 +999,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 550,
-        "y": 580,
+        "x": 330,
+        "y": 560,
         "wires": [
             [
                 "ee0ab7e6de853b8c",
@@ -2859,8 +1033,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 800,
-        "y": 560,
+        "x": 580,
+        "y": 540,
         "wires": [
             [
                 "3c025102d2d23005"
@@ -2894,8 +1068,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 800,
-        "y": 660,
+        "x": 580,
+        "y": 640,
         "wires": [
             [
                 "e939bcb4ab01bfe7"
@@ -2931,8 +1105,8 @@
         "blockInputOverrides": true,
         "domain": "input_boolean",
         "service": "turn_off",
-        "x": 1060,
-        "y": 540,
+        "x": 840,
+        "y": 520,
         "wires": [
             []
         ]
@@ -2963,8 +1137,8 @@
         "blockInputOverrides": true,
         "domain": "input_boolean",
         "service": "turn_off",
-        "x": 1060,
-        "y": 640,
+        "x": 840,
+        "y": 620,
         "wires": [
             []
         ]
@@ -2995,8 +1169,8 @@
         "blockInputOverrides": true,
         "domain": "script",
         "service": "turn_on",
-        "x": 1060,
-        "y": 600,
+        "x": 840,
+        "y": 580,
         "wires": [
             []
         ]
@@ -3027,8 +1201,8 @@
         "blockInputOverrides": true,
         "domain": "script",
         "service": "turn_on",
-        "x": 1060,
-        "y": 700,
+        "x": 840,
+        "y": 680,
         "wires": [
             []
         ]
@@ -3044,10 +1218,10 @@
         "exposeAsEntityConfig": "",
         "entityId": "input_datetime.kids_bedtime",
         "property": "",
-        "offset": "-8",
-        "offsetType": "num",
+        "offset": "-($number($entities(\"input_number.sunset_duration_minutes\").state) / 3)",
+        "offsetType": "jsonata",
         "offsetUnits": "minutes",
-        "randomOffset": false,
+        "randomOffset": true,
         "repeatDaily": true,
         "outputProperties": [
             {
@@ -3078,44 +1252,11 @@
         "saturday": true,
         "ignorePastDate": false,
         "x": 110,
-        "y": 840,
+        "y": 800,
         "wires": [
             [
-                "22a7aed4c2fd2617"
+                "2014e6ed38652edb"
             ]
-        ]
-    },
-    {
-        "id": "22a7aed4c2fd2617",
-        "type": "api-current-state",
-        "z": "9cbe415243861f49",
-        "g": "371dbc674915aea3",
-        "name": "Both Home?",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.bothhome",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 330,
-        "y": 840,
-        "wires": [
-            [
-                "b1216a62c48467f4"
-            ],
-            []
         ]
     },
     {
@@ -3124,15 +1265,15 @@
         "z": "9cbe415243861f49",
         "g": "371dbc674915aea3",
         "name": "Sunset Duration",
-        "func": "var haStates = global.get('homeassistant.states') || {};\nvar dur = parseFloat((haStates['input_number.sunset_duration_minutes']||{}).state || 15);\nvar speedSec = Math.round(dur * 60);\nmsg.data = {\n    sky_type: 'Sunset',\n    speed: speedSec,\n    power_on: true,\n    palette: [\n        [200,100,100,3500],[241,100,1,3500],[189,100,8,3500],\n        [40,100,100,3500],[40,50,100,3500],[40,0,100,6500]\n    ]\n};\nreturn msg;",
+        "func": "var haStates = global.get('homeassistant.states') || {};\n\nnode.warn(msg.payload[0]);\nnode.warn(msg.payload[0].entity_id);\nnode.warn(msg.payload[0].state);\nvar dur = msg.payload[0].state;\nvar speedSec = Math.round(dur * 60);\nmsg.data = {\n    sky_type: 'Sunset',\n    speed: speedSec,\n    power_on: true,\n    palette: [\n        [200,100,100,3500],[241,100,1,3500],[189,100,8,3500],\n        [40,100,100,3500],[40,50,100,3500],[40,0,100,6500]\n    ]\n};\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
-        "y": 840,
+        "x": 520,
+        "y": 800,
         "wires": [
             [
                 "85e7236ae3ac79c8",
@@ -3166,10 +1307,12 @@
         "blockInputOverrides": true,
         "domain": "lifx",
         "service": "effect_sky",
-        "x": 820,
-        "y": 820,
+        "x": 810,
+        "y": 800,
         "wires": [
-            []
+            [
+                "bcd95a317ef5e20c"
+            ]
         ]
     },
     {
@@ -3198,16 +1341,19 @@
         "blockInputOverrides": true,
         "domain": "lifx",
         "service": "effect_sky",
-        "x": 820,
-        "y": 880,
+        "x": 810,
+        "y": 860,
         "wires": [
-            []
+            [
+                "b51272f970838212"
+            ]
         ]
     },
     {
         "id": "a01be418f9594a2e",
         "type": "server-state-changed",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Izzy Nightlight Active",
         "server": "db559b8fb32ae329",
@@ -3261,7 +1407,7 @@
         "halt_if_type": "str",
         "halt_if_compare": "is",
         "x": 130,
-        "y": 1020,
+        "y": 980,
         "wires": [
             [
                 "7233a7aa2446b777"
@@ -3272,6 +1418,7 @@
         "id": "1a17ece80e81e312",
         "type": "server-state-changed",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Gavin Nightlight Active",
         "server": "db559b8fb32ae329",
@@ -3313,7 +1460,7 @@
         "halt_if_type": "str",
         "halt_if_compare": "is",
         "x": 140,
-        "y": 1180,
+        "y": 1140,
         "wires": [
             [
                 "ca8c86802d64134c"
@@ -3327,6 +1474,7 @@
         "id": "7233a7aa2446b777",
         "type": "function",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Colors | Izzy",
         "func": "function hexToHSBK(hex) {\n    hex = String(hex).replace(/^#/, '');\n    if (hex.length === 3) hex = hex.split('').map(function(c){return c+c;}).join('');\n    var r = parseInt(hex.substr(0,2),16)/255;\n    var g = parseInt(hex.substr(2,2),16)/255;\n    var b = parseInt(hex.substr(4,2),16)/255;\n    var max=Math.max(r,g,b), min=Math.min(r,g,b), d=max-min, h=0;\n    if(d!==0){\n        if(max===r) h=60*(((g-b)/d)%6);\n        else if(max===g) h=60*((b-r)/d+2);\n        else h=60*((r-g)/d+4);\n    }\n    if(h<0) h+=360;\n    var s=max===0?0:d/max;\n    return [Math.round(h), Math.round(s*100), 5, 3500];\n}\nvar haStates = global.get('homeassistant.states') || {};\nvar colors = [\n    (haStates['input_text.izzy_nightlight_color_1']||{}).state||'#2C31FF',\n    (haStates['input_text.izzy_nightlight_color_2']||{}).state||'#1A20D0',\n    (haStates['input_text.izzy_nightlight_color_3']||{}).state||'#0A10A0'\n];\nmsg.payload = colors.map(hexToHSBK);\nreturn msg;",
@@ -3337,7 +1485,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1000,
+        "y": 960,
         "wires": [
             [
                 "26646ed9cad25b25"
@@ -3348,6 +1496,7 @@
         "id": "ca8c86802d64134c",
         "type": "function",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Colors | Gavin",
         "func": "function hexToHSBK(hex) {\n    hex = String(hex).replace(/^#/, '');\n    if (hex.length === 3) hex = hex.split('').map(function(c){return c+c;}).join('');\n    var r = parseInt(hex.substr(0,2),16)/255;\n    var g = parseInt(hex.substr(2,2),16)/255;\n    var b = parseInt(hex.substr(4,2),16)/255;\n    var max=Math.max(r,g,b), min=Math.min(r,g,b), d=max-min, h=0;\n    if(d!==0){\n        if(max===r) h=60*(((g-b)/d)%6);\n        else if(max===g) h=60*((b-r)/d+2);\n        else h=60*((r-g)/d+4);\n    }\n    if(h<0) h+=360;\n    var s=max===0?0:d/max;\n    return [Math.round(h), Math.round(s*100), 5, 3500];\n}\nvar haStates = global.get('homeassistant.states') || {};\nvar colors = [\n    (haStates['input_text.gavin_nightlight_color_1']||{}).state||'#0078FF',\n    (haStates['input_text.gavin_nightlight_color_2']||{}).state||'#0050CC',\n    (haStates['input_text.gavin_nightlight_color_3']||{}).state||'#0028A0'\n];\nmsg.payload = colors.map(hexToHSBK);\nreturn msg;",
@@ -3358,7 +1507,7 @@
         "finalize": "",
         "libs": [],
         "x": 400,
-        "y": 1160,
+        "y": 1120,
         "wires": [
             [
                 "c993c34d823203b4"
@@ -3369,6 +1518,7 @@
         "id": "26646ed9cad25b25",
         "type": "api-call-service",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Nightlight Morph | Izzy",
         "server": "db559b8fb32ae329",
@@ -3392,7 +1542,7 @@
         "domain": "lifx",
         "service": "effect_morph",
         "x": 650,
-        "y": 1000,
+        "y": 960,
         "wires": [
             []
         ]
@@ -3401,6 +1551,7 @@
         "id": "c993c34d823203b4",
         "type": "api-call-service",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Nightlight Morph | Gavin",
         "server": "db559b8fb32ae329",
@@ -3424,7 +1575,7 @@
         "domain": "lifx",
         "service": "effect_morph",
         "x": 660,
-        "y": 1160,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -3433,6 +1584,7 @@
         "id": "bb289bc07f58a117",
         "type": "api-call-service",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Nightlight Off | Izzy",
         "server": "db559b8fb32ae329",
@@ -3456,7 +1608,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 390,
-        "y": 1060,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -3465,6 +1617,7 @@
         "id": "369b1f6d3eed47d7",
         "type": "api-call-service",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "Nightlight Off | Gavin",
         "server": "db559b8fb32ae329",
@@ -3488,7 +1641,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 400,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -3502,7 +1655,7 @@
         "scope": [],
         "uncaught": false,
         "x": 100,
-        "y": 1360,
+        "y": 1300,
         "wires": [
             [
                 "8683865b7289aa3e"
@@ -3523,7 +1676,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 1360,
+        "y": 1300,
         "wires": [
             [
                 "f5a35eb858545ff4"
@@ -3555,41 +1708,8 @@
         "domain": "notify",
         "service": "mobile_app_squid_9_pro",
         "x": 560,
-        "y": 1360,
+        "y": 1300,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "89b0ee06123ccd9b",
-        "type": "api-current-state",
-        "z": "9cbe415243861f49",
-        "g": "57a9885f3ee3f82a",
-        "name": "Both Home?",
-        "server": "db559b8fb32ae329",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.bothhome",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 330,
-        "y": 80,
-        "wires": [
-            [
-                "08ce2d4d98dab4d9"
-            ],
             []
         ]
     },
@@ -3617,7 +1737,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 520,
+        "x": 380,
         "y": 80,
         "wires": [
             [
@@ -3632,22 +1752,29 @@
         "z": "9cbe415243861f49",
         "g": "57a9885f3ee3f82a",
         "name": "Day Gate",
-        "func": "// Single function replacing: switch + 7 day-check nodes + 5 No School checks\nvar ha = global.get('homeassistant.states') || {};\nvar days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];\nvar today = days[new Date().getDay()];\n\n// Per-day enable toggle\nif ((ha['input_boolean.' + today] || {}).state !== 'on') return null;\n\nvar isWeekend = (today === 'saturday' || today === 'sunday');\nvar noSchool  = !isWeekend && (ha['input_boolean.no_school'] || {}).state === 'on';\nmsg.noSchool  = noSchool;\n\n// output 1: all rooms (weekend, or school weekday)\n// output 2: MBDR only (no-school weekday — kids sleep in)\nreturn noSchool ? [null, msg] : [msg, null];",
+        "func": "// Day Gate — fetches state via HA REST API (global context not available)\n// 'http' pre-imported via libs: [{var:'http', module:'http'}]\nvar days  = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];\nvar today = days[new Date().getDay()];\n\nfunction getState(entityId) {\n    return new Promise(function(resolve) {\n        var opts = {\n            hostname: '192.168.1.101',\n            port:     8123,\n            path:     '/api/states/' + entityId,\n            method:   'GET',\n            headers:  { 'Authorization': 'Bearer ' + env.get('HA_TOKEN') }\n        };\n        var req = http.request(opts, function(res) {\n            var body = '';\n            res.on('data', function(c) { body += c; });\n            res.on('end', function() {\n                try { resolve(JSON.parse(body).state); }\n                catch(e) { resolve('unknown'); }\n            });\n        });\n        req.on('error', function() { resolve('unknown'); });\n        req.end();\n    });\n}\n\nreturn Promise.all([\n    getState('input_boolean.' + today),\n    getState('input_boolean.no_school')\n]).then(function(results) {\n    var dayState      = results[0];\n    var noSchoolState = results[1];\n\n    if (dayState !== 'on') return null;\n\n    var isWeekend = (today === 'saturday' || today === 'sunday');\n    var noSchool  = !isWeekend && noSchoolState === 'on';\n    msg.noSchool  = noSchool;\n\n    return noSchool ? [null, msg] : [msg, null];\n});",
         "outputs": 2,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "libs": [],
-        "x": 700,
+        "libs": [
+            {
+                "var": "http",
+                "module": "http"
+            }
+        ],
+        "x": 620,
         "y": 80,
         "wires": [
             [
+                "6ff36c7b14500ee3",
                 "988be46edd6b9cc9",
                 "ffcc992a0bc804fb",
                 "c6c73247f01557ce"
             ],
             [
+                "76d1abb1f4bdf583",
                 "c6c73247f01557ce"
             ]
         ]
@@ -3676,7 +1803,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 930,
+        "x": 870,
         "y": 80,
         "wires": [
             [
@@ -3711,7 +1838,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 930,
+        "x": 870,
         "y": 200,
         "wires": [
             [
@@ -3746,7 +1873,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 930,
+        "x": 870,
         "y": 320,
         "wires": [
             [
@@ -3783,7 +1910,7 @@
         "blockInputOverrides": true,
         "domain": "media_player",
         "service": "volume_set",
-        "x": 1160,
+        "x": 1100,
         "y": 60,
         "wires": [
             [
@@ -3817,7 +1944,7 @@
         "blockInputOverrides": true,
         "domain": "media_player",
         "service": "volume_set",
-        "x": 1170,
+        "x": 1110,
         "y": 180,
         "wires": [
             [
@@ -3851,7 +1978,7 @@
         "blockInputOverrides": true,
         "domain": "media_player",
         "service": "volume_set",
-        "x": 1170,
+        "x": 1110,
         "y": 300,
         "wires": [
             [
@@ -3885,7 +2012,7 @@
         "blockInputOverrides": true,
         "domain": "media_player",
         "service": "volume_set",
-        "x": 1150,
+        "x": 1090,
         "y": 120,
         "wires": [
             []
@@ -3917,7 +2044,7 @@
         "blockInputOverrides": true,
         "domain": "media_player",
         "service": "volume_set",
-        "x": 1150,
+        "x": 1090,
         "y": 240,
         "wires": [
             []
@@ -3949,7 +2076,7 @@
         "blockInputOverrides": true,
         "domain": "media_player",
         "service": "volume_set",
-        "x": 1160,
+        "x": 1100,
         "y": 360,
         "wires": [
             []
@@ -3981,12 +2108,10 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 1660,
+        "x": 1360,
         "y": 60,
         "wires": [
-            [
-                "e4dc3e1891ebd30f"
-            ]
+            []
         ]
     },
     {
@@ -4015,111 +2140,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 1670,
-        "y": 180,
-        "wires": [
-            [
-                "b18efc20b84dd684"
-            ]
-        ]
-    },
-    {
-        "id": "e4dc3e1891ebd30f",
-        "type": "function",
-        "z": "9cbe415243861f49",
-        "g": "57a9885f3ee3f82a",
-        "name": "RandomQuote()",
-        "func": "var quotes = [\n  \"Rise and shine!\", \"Its time to get up and seize the day!\",\n  \"The early bird gets the worm.\", \"Dont be a lazybones.\",\n  \"Its a beautiful day outside.\",\n  \"The sun is shining, the birds are singing, and its time to wake up!\",\n  \"Wakey wakey, eggs and bakey!\", \"Its time to rise and grind.\",\n  \"Time to get out of bed and start your day.\",\n  \"The day is calling, so dont be late.\", \"Wake up, sleepyhead!\",\n  \"Its time to face the world.\", \"The alarm clock has spoken.\",\n  \"Its time to get moving.\", \"Dont miss out on all the fun today!\",\n  \"The day is here, so make the most of it.\",\n  \"Wake up and smell the coffee.\", \"Its time to start your engines.\",\n  \"The day is yours, so go out and conquer it!\",\n  \"Rise and shine, buttercup!\", \"Its time to get out of bed and start living.\",\n  \"The day is waiting for you.\", \"Wake up and live your life!\",\n  \"The world is your oyster.\", \"Wake up and make it a great day!\",\n];\nmsg.payload = quotes[Math.floor(Math.random() * quotes.length)];\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1920,
-        "y": 60,
-        "wires": [
-            [
-                "629bfee2b9dd6dcc"
-            ]
-        ]
-    },
-    {
-        "id": "b18efc20b84dd684",
-        "type": "function",
-        "z": "9cbe415243861f49",
-        "g": "57a9885f3ee3f82a",
-        "name": "RandomQuote()",
-        "func": "var quotes = [\n  \"Rise and shine!\", \"It's time to get up and seize the day!\",\n  \"The early bird gets the worm.\", \"It's a beautiful day outside.\",\n  \"The sun is shining, the birds are singing, and it's time to wake up!\",\n  \"Wakey wakey, eggs and bakey!\", \"It's time to rise and grind.\",\n  \"Time to get out of bed and start your day.\",\n  \"The day is calling, so don't be late.\", \"Wake up, sleepyhead!\",\n  \"It's time to face the world.\", \"The alarm clock has spoken.\",\n  \"It's time to get moving.\", \"Don't miss out on all the fun today!\",\n  \"The day is here, so make the most of it.\",\n  \"Wake up and smell the coffee.\",\n  \"The day is yours, so go out and conquer it!\",\n  \"Rise and shine, buttercup!\", \"The day is waiting for you.\",\n  \"Wake up and make it a great day!\", \"The world is your oyster.\",\n  \"Good morning, sunshine.\", \"Time to wake up, my little star.\",\n  \"Wake up, sleepyhead. The world missed you.\",\n  \"Beep boop! This is your robot butler, requesting you to wake up.\",\n  \"The pillow has declared the sleeping competition is over. You won!\",\n  \"Time to activate daytime mode!\", \"Wakey wakey, sleepy snakey!\",\n  \"I hear pancakes calling your name...\",\n  \"Good morning, adventurer! A new quest awaits.\",\n  \"Your mission, should you choose to accept it, is to have an amazing day.\",\n  \"Time to assemble, little hero! The day needs saving.\",\n  \"Let's see what amazing things you'll do today.\",\n  \"Wake up and be awesome!\", \"Let's make some happy happen today.\",\n];\nmsg.payload = quotes[Math.floor(Math.random() * quotes.length)];\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1920,
-        "y": 180,
-        "wires": [
-            [
-                "50e1af5954e0ef37"
-            ]
-        ]
-    },
-    {
-        "id": "629bfee2b9dd6dcc",
-        "type": "api-call-service",
-        "z": "9cbe415243861f49",
-        "g": "57a9885f3ee3f82a",
-        "name": "IZZY Wake Up",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "tts.cloud_say",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.mass_isabelles_speaker\",\"message\":\"{{payload}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "tts",
-        "service": "cloud_say",
-        "x": 2140,
-        "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "50e1af5954e0ef37",
-        "type": "api-call-service",
-        "z": "9cbe415243861f49",
-        "g": "57a9885f3ee3f82a",
-        "name": "GAVN Wake Up",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "tts.cloud_say",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.mass_gavins_speaker\",\"message\":\"{{payload}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "tts",
-        "service": "cloud_say",
-        "x": 2140,
+        "x": 1370,
         "y": 180,
         "wires": [
             []
@@ -4151,7 +2172,7 @@
         "blockInputOverrides": true,
         "domain": "media_player",
         "service": "shuffle_set",
-        "x": 1400,
+        "x": 1340,
         "y": 300,
         "wires": [
             [
@@ -4165,14 +2186,14 @@
         "z": "9cbe415243861f49",
         "g": "57a9885f3ee3f82a",
         "name": "RandPlaylist()",
-        "func": "var options = [\n  'spotify:playlist:37i9dQZF1E375ju8n547l8',\n  'spotify:playlist:37i9dQZF1E35r4IalTW8E9',\n  'spotify:playlist:37i9dQZF1E37Zpje6YDmQh',\n  'spotify:playlist:37i9dQZF1E36d4yIZYsGEt',\n  'spotify:playlist:playlist/37i9dQZF1E39Xt1MJIH151',\n  'spotify:playlist:37i9dQZF1E36Y3P1zfdePL'\n];\nmsg.url = options[Math.floor(Math.random() * options.length)];\nreturn msg;",
+        "func": "var options = [\n  'spotify:playlist:37i9dQZF1E375ju8n547l8',\n  'spotify:playlist:37i9dQZF1E35r4IalTW8E9',\n  'spotify:playlist:37i9dQZF1E37Zpje6YDmQh',\n  'spotify:playlist:37i9dQZF1E36d4yIZYsGEt',\n  'spotify:playlist:37i9dQZF1E39Xt1MJIH151',\n  'spotify:playlist:37i9dQZF1E36Y3P1zfdePL'\n];\nmsg.url = options[Math.floor(Math.random() * options.length)];\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1640,
+        "x": 1580,
         "y": 300,
         "wires": [
             [
@@ -4200,7 +2221,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1910,
+        "x": 1850,
         "y": 300,
         "wires": [
             [
@@ -4237,7 +2258,7 @@
         "blockInputOverrides": false,
         "domain": "music_assistant",
         "service": "play_media",
-        "x": 2170,
+        "x": 2110,
         "y": 260,
         "wires": [
             []
@@ -4269,7 +2290,7 @@
         "blockInputOverrides": false,
         "domain": "music_assistant",
         "service": "play_media",
-        "x": 2140,
+        "x": 2080,
         "y": 340,
         "wires": [
             []
@@ -4289,7 +2310,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1910,
+        "x": 1850,
         "y": 380,
         "wires": []
     },
@@ -4375,7 +2396,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1140,
+        "x": 1080,
         "y": 420,
         "wires": [
             [
@@ -4387,6 +2408,7 @@
         "id": "738083c329e475b3",
         "type": "inject",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "46d89de9daf1322b",
         "name": "Test Briefing",
         "props": [
@@ -4406,7 +2428,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 130,
-        "y": 1480,
+        "y": 1400,
         "wires": [
             [
                 "0bba0bd6df11c20f"
@@ -4427,7 +2449,7 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 1480,
+        "y": 1400,
         "wires": [
             [
                 "7e979cdba50f0c24",
@@ -4454,7 +2476,7 @@
             }
         ],
         "x": 610,
-        "y": 1480,
+        "y": 1400,
         "wires": [
             [
                 "c3ba15b1ffede50f",
@@ -4477,7 +2499,7 @@
         "finalize": "",
         "libs": [],
         "x": 870,
-        "y": 1480,
+        "y": 1400,
         "wires": [
             [
                 "03ab86991c24c299"
@@ -4489,7 +2511,7 @@
         "type": "http request",
         "z": "9cbe415243861f49",
         "g": "46d89de9daf1322b",
-        "name": "Ask Claude | Izzy",
+        "name": "Ask Gemini | Izzy",
         "method": "POST",
         "ret": "obj",
         "paytoqs": "ignore",
@@ -4502,7 +2524,7 @@
         "senderr": false,
         "headers": [],
         "x": 1130,
-        "y": 1480,
+        "y": 1400,
         "wires": [
             [
                 "f2e0be69b492e27f",
@@ -4524,11 +2546,11 @@
         "finalize": "",
         "libs": [],
         "x": 1390,
-        "y": 1480,
+        "y": 1400,
         "wires": [
             [
-                "254621f46b6e42a9",
-                "d687af7c750883de"
+                "d687af7c750883de",
+                "254621f46b6e42a9"
             ]
         ]
     },
@@ -4557,7 +2579,7 @@
         "domain": "tts",
         "service": "cloud_say",
         "x": 1630,
-        "y": 1480,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -4577,7 +2599,7 @@
         "finalize": "",
         "libs": [],
         "x": 870,
-        "y": 1580,
+        "y": 1500,
         "wires": [
             [
                 "136fb99cc2621414",
@@ -4591,7 +2613,7 @@
         "z": "9cbe415243861f49",
         "d": true,
         "g": "46d89de9daf1322b",
-        "name": "Ask Claude | Gavin",
+        "name": "Ask Gemini | Gavin",
         "method": "POST",
         "ret": "obj",
         "paytoqs": "ignore",
@@ -4604,7 +2626,7 @@
         "senderr": false,
         "headers": [],
         "x": 1130,
-        "y": 1580,
+        "y": 1500,
         "wires": [
             [
                 "44253c149e6c36b5"
@@ -4626,7 +2648,7 @@
         "finalize": "",
         "libs": [],
         "x": 1390,
-        "y": 1580,
+        "y": 1500,
         "wires": [
             [
                 "000ce80788614143",
@@ -4660,7 +2682,7 @@
         "domain": "tts",
         "service": "cloud_say",
         "x": 1630,
-        "y": 1580,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -4680,7 +2702,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 440,
-        "y": 1580,
+        "y": 1500,
         "wires": []
     },
     {
@@ -4698,7 +2720,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 650,
-        "y": 1680,
+        "y": 1600,
         "wires": []
     },
     {
@@ -4716,7 +2738,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 930,
-        "y": 1680,
+        "y": 1600,
         "wires": []
     },
     {
@@ -4734,13 +2756,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1400,
-        "y": 1680,
+        "y": 1600,
         "wires": []
     },
     {
         "id": "f1f0250a0e52d32c",
         "type": "inject",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "",
         "props": [
@@ -4760,7 +2783,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 1240,
+        "y": 1200,
         "wires": [
             [
                 "ca8c86802d64134c"
@@ -4771,6 +2794,7 @@
         "id": "ee30f227cea34c31",
         "type": "inject",
         "z": "9cbe415243861f49",
+        "d": true,
         "g": "6c20c5685d5e607b",
         "name": "",
         "props": [
@@ -4790,10 +2814,338 @@
         "payload": "",
         "payloadType": "date",
         "x": 460,
-        "y": 1120,
+        "y": 1080,
         "wires": [
             [
                 "26646ed9cad25b25"
+            ]
+        ]
+    },
+    {
+        "id": "6ff36c7b14500ee3",
+        "type": "debug",
+        "z": "9cbe415243861f49",
+        "g": "57a9885f3ee3f82a",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "76d1abb1f4bdf583",
+        "type": "debug",
+        "z": "9cbe415243861f49",
+        "g": "57a9885f3ee3f82a",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "86296c5964151ffe",
+        "type": "inject",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 860,
+        "wires": [
+            [
+                "2014e6ed38652edb"
+            ]
+        ]
+    },
+    {
+        "id": "081dfb451637b019",
+        "type": "inject",
+        "z": "9cbe415243861f49",
+        "g": "c9677afc28bdf995",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1418a6965c00c23",
+        "type": "api-call-service",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": " Izzy Lights Off",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [
+            "izzy"
+        ],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 1380,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c5b23749e5d94593",
+        "type": "api-call-service",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": "Gavin Lights Off",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [
+            "gavn"
+        ],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 1380,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bcd95a317ef5e20c",
+        "type": "ha-wait-until",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": "",
+        "server": "db559b8fb32ae329",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "light.gavin_ceiling",
+                "light.izzy_ceiling_light"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "false",
+        "valueType": "str",
+        "timeout": "data.speed",
+        "timeoutType": "jsonata",
+        "timeoutUnits": "seconds",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1020,
+        "y": 800,
+        "wires": [
+            [],
+            [
+                "46a33a76ce72bd35"
+            ]
+        ]
+    },
+    {
+        "id": "2014e6ed38652edb",
+        "type": "ha-get-entities",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": "Get Duration",
+        "server": "db559b8fb32ae329",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "is",
+                "value": "input_number.sunset_duration_minutes",
+                "valueType": "str"
+            }
+        ],
+        "outputType": "array",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 310,
+        "y": 800,
+        "wires": [
+            [
+                "b1216a62c48467f4"
+            ]
+        ]
+    },
+    {
+        "id": "b51272f970838212",
+        "type": "ha-wait-until",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": "",
+        "server": "db559b8fb32ae329",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "light.gavin_ceiling",
+                "light.izzy_ceiling_light"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "false",
+        "valueType": "str",
+        "timeout": "data.speed",
+        "timeoutType": "jsonata",
+        "timeoutUnits": "seconds",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1020,
+        "y": 860,
+        "wires": [
+            [],
+            [
+                "bc28346e32289766"
+            ]
+        ]
+    },
+    {
+        "id": "46a33a76ce72bd35",
+        "type": "api-call-service",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": " Izzy Ceiling",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "lifx.effect_stop",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [
+            "1779c1a288c11106ac303af5e70b8515"
+        ],
+        "entityId": [],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "lifx",
+        "service": "effect_stop",
+        "x": 1190,
+        "y": 800,
+        "wires": [
+            [
+                "d1418a6965c00c23"
+            ]
+        ]
+    },
+    {
+        "id": "bc28346e32289766",
+        "type": "api-call-service",
+        "z": "9cbe415243861f49",
+        "g": "371dbc674915aea3",
+        "name": "Gavin Ceiling",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "lifx.effect_stop",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [
+            "83a7619417d6b17768b9b6263b198cff"
+        ],
+        "entityId": [],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "lifx",
+        "service": "effect_stop",
+        "x": 1190,
+        "y": 860,
+        "wires": [
+            [
+                "c5b23749e5d94593"
             ]
         ]
     },
@@ -6158,7 +4510,7 @@
         "outputs": 2,
         "entities": {
             "entity": [
-                "sensor.living_room_fp1_movement"
+                "sensor.fp1_movement"
             ],
             "substring": [],
             "regex": []
@@ -6257,7 +4609,7 @@
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "sensor.trisensor_illuminance_2"
+                "sensor.living_room_trisensor_illuminance"
             ],
             "substring": [],
             "regex": []
@@ -6408,7 +4760,7 @@
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "binary_sensor.trisensor_motion_detection"
+                "binary_sensor.hallway_trisensor_motion_detection"
             ],
             "substring": [],
             "regex": []
@@ -6523,38 +4875,6 @@
             [
                 "369c46ae5a1d5be4"
             ]
-        ]
-    },
-    {
-        "id": "9ae97f649bf97bef",
-        "type": "api-call-service",
-        "z": "f890255551479538",
-        "g": "c736bec848c37ac8",
-        "name": "Overhead | Off",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "light.dimmer"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "light",
-        "service": "turn_off",
-        "x": 740,
-        "y": 260,
-        "wires": [
-            []
         ]
     },
     {
@@ -7025,9 +5345,7 @@
             [
                 "a9ac1e438ab8775e"
             ],
-            [
-                "9ae97f649bf97bef"
-            ]
+            []
         ]
     },
     {
@@ -7163,7 +5481,7 @@
             "domain": "mqtt",
             "device_id": "6b15755354e7d187c5c6a85b07fc46e5",
             "type": "action",
-            "subtype": "off_press_release",
+            "subtype": "off_press",
             "metadata": {}
         },
         "capabilities": [],
@@ -7206,7 +5524,7 @@
             "domain": "mqtt",
             "device_id": "6b15755354e7d187c5c6a85b07fc46e5",
             "type": "action",
-            "subtype": "on_press_release",
+            "subtype": "on_press",
             "metadata": {}
         },
         "capabilities": [],
@@ -7292,7 +5610,7 @@
             "domain": "mqtt",
             "device_id": "6b15755354e7d187c5c6a85b07fc46e5",
             "type": "action",
-            "subtype": "on_hold_release",
+            "subtype": "on_hold",
             "metadata": {}
         },
         "capabilities": [],
@@ -7333,7 +5651,7 @@
             "domain": "mqtt",
             "device_id": "6b15755354e7d187c5c6a85b07fc46e5",
             "type": "action",
-            "subtype": "down_press_release",
+            "subtype": "down_press",
             "metadata": {}
         },
         "capabilities": [],
@@ -7618,7 +5936,7 @@
             "domain": "mqtt",
             "device_id": "2bd90ae1fec4ae4f8f9e35ceed79fbe2",
             "type": "action",
-            "subtype": "up_press_release",
+            "subtype": "up_press",
             "metadata": {}
         },
         "capabilities": [],
@@ -7661,7 +5979,7 @@
             "domain": "mqtt",
             "device_id": "2bd90ae1fec4ae4f8f9e35ceed79fbe2",
             "type": "action",
-            "subtype": "down_press_release",
+            "subtype": "off_press",
             "metadata": {}
         },
         "capabilities": [],
@@ -7704,7 +6022,7 @@
             "domain": "mqtt",
             "device_id": "2bd90ae1fec4ae4f8f9e35ceed79fbe2",
             "type": "action",
-            "subtype": "on_press_release",
+            "subtype": "on_press",
             "metadata": {}
         },
         "capabilities": [],
@@ -7829,7 +6147,7 @@
             "domain": "mqtt",
             "device_id": "2bd90ae1fec4ae4f8f9e35ceed79fbe2",
             "type": "action",
-            "subtype": "down_press_release",
+            "subtype": "down_press",
             "metadata": {}
         },
         "capabilities": [],
@@ -8542,7 +6860,9 @@
         "x": 90,
         "y": 660,
         "wires": [
-            []
+            [
+                "cfc8157eb21d870c"
+            ]
         ]
     },
     {
@@ -8583,9 +6903,7 @@
         "x": 90,
         "y": 780,
         "wires": [
-            [
-                "cfc8157eb21d870c"
-            ]
+            []
         ]
     },
     {
@@ -8656,7 +6974,7 @@
         "domain": "fan",
         "service": "toggle",
         "x": 230,
-        "y": 780,
+        "y": 660,
         "wires": [
             []
         ]
@@ -8678,8 +6996,8 @@
             "light.fanlight"
         ],
         "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
+        "data": "{\"transition\":\"1\",\"brightness_pct\":\"75\"}",
+        "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
         "outputProperties": [],
@@ -10436,6 +8754,16 @@
         ]
     },
     {
+        "id": "c1_status",
+        "type": "comment",
+        "z": "3e6814fd0f8088e6",
+        "name": "── Print Status: started / resumed / paused / done / failed / offline ──",
+        "info": "",
+        "x": 290,
+        "y": 40,
+        "wires": []
+    },
+    {
         "id": "60536a7729b6f4d3",
         "type": "server-state-changed",
         "z": "3e6814fd0f8088e6",
@@ -10485,8 +8813,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 120,
-        "y": 60,
+        "x": 160,
+        "y": 80,
         "wires": [
             [
                 "30a12dcd35ab51d1"
@@ -10520,13 +8848,23 @@
                 "t": "eq",
                 "v": "finish",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "failed",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "offline",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 4,
-        "x": 330,
-        "y": 80,
+        "outputs": 6,
+        "x": 370,
+        "y": 120,
         "wires": [
             [
                 "40f5af3788c77234"
@@ -10537,14 +8875,155 @@
             [],
             [
                 "15601ca005a79aeb"
+            ],
+            [
+                "n_failed_notify"
+            ],
+            [
+                "n_offline_notify"
             ]
+        ]
+    },
+    {
+        "id": "40f5af3788c77234",
+        "type": "switch",
+        "z": "3e6814fd0f8088e6",
+        "name": "Started || Resumed",
+        "property": "data.old_state.state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "idle",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "prepare",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "init",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "pause",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 580,
+        "y": 80,
+        "wires": [
+            [
+                "a80a7dc7b1808df1"
+            ],
+            [
+                "a80a7dc7b1808df1"
+            ],
+            [
+                "a80a7dc7b1808df1"
+            ],
+            [
+                "6492616e922715b8"
+            ]
+        ]
+    },
+    {
+        "id": "a80a7dc7b1808df1",
+        "type": "api-call-service",
+        "z": "3e6814fd0f8088e6",
+        "name": "Print Started",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_squid_9_pro",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"Print started.\",\"title\":\"Transmogrifier\",\"data\":{\"channel\":\"bambu-status\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_squid_9_pro",
+        "x": 820,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6492616e922715b8",
+        "type": "api-call-service",
+        "z": "3e6814fd0f8088e6",
+        "name": "Print Resumed",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_squid_9_pro",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"Print resumed.\",\"title\":\"Transmogrifier\",\"data\":{\"channel\":\"bambu-status\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_squid_9_pro",
+        "x": 820,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4e201a39e381447",
+        "type": "api-call-service",
+        "z": "3e6814fd0f8088e6",
+        "name": "Print Paused",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_squid_9_pro",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"Print paused.\",\"title\":\"Transmogrifier\",\"data\":{\"channel\":\"bambu-status\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_squid_9_pro",
+        "x": 820,
+        "y": 120,
+        "wires": [
+            []
         ]
     },
     {
         "id": "15601ca005a79aeb",
         "type": "api-call-service",
         "z": "3e6814fd0f8088e6",
-        "d": true,
         "name": "Print Done",
         "server": "db559b8fb32ae329",
         "version": 7,
@@ -10555,7 +9034,7 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"message\":\"Print Done\",\"title\":\"Transmogrifier\"}",
+        "data": "{\"message\":\"Print complete!\",\"title\":\"Transmogrifier\",\"data\":{\"channel\":\"bambu-status\",\"importance\":\"high\"}}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -10564,11 +9043,196 @@
         "blockInputOverrides": false,
         "domain": "notify",
         "service": "mobile_app_squid_9_pro",
-        "x": 750,
+        "x": 820,
         "y": 160,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "n_failed_notify",
+        "type": "api-call-service",
+        "z": "3e6814fd0f8088e6",
+        "name": "Print Failed",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_squid_9_pro",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"Print has failed. Check the printer.\",\"title\":\"Transmogrifier: FAILED\",\"data\":{\"sticky\":true,\"channel\":\"bambu-errors\",\"importance\":\"high\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_squid_9_pro",
+        "x": 820,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "n_offline_notify",
+        "type": "api-call-service",
+        "z": "3e6814fd0f8088e6",
+        "name": "Printer Offline",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_squid_9_pro",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"Transmogrifier has gone offline.\",\"title\":\"Transmogrifier: Offline\",\"data\":{\"channel\":\"bambu-status\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_squid_9_pro",
+        "x": 820,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2_stage",
+        "type": "comment",
+        "z": "3e6814fd0f8088e6",
+        "name": "── Stage Error Pauses: filament runout, clogs, temp faults, etc. ──",
+        "info": "",
+        "x": 270,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b0a54917ba9980f2",
+        "type": "server-state-changed",
+        "z": "3e6814fd0f8088e6",
+        "name": "Transmogrifier Stage",
+        "server": "db559b8fb32ae329",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.x1c_00m00a2a1402639_current_stage"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "string",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 160,
+        "y": 360,
+        "wires": [
+            [
+                "fn_stage_errors"
+            ]
+        ]
+    },
+    {
+        "id": "fn_stage_errors",
+        "type": "function",
+        "z": "3e6814fd0f8088e6",
+        "name": "Stage → error message",
+        "func": "const STAGE_ALERTS = {\n    paused_filament_runout: {\n        title: 'Transmogrifier: Filament Runout',\n        message: 'Printer paused — filament has run out. Load filament to continue.'\n    },\n    paused_nozzle_temperature_malfunction: {\n        title: 'Transmogrifier: Nozzle Temp Error',\n        message: 'Nozzle temperature malfunction detected. Check the printer before resuming.'\n    },\n    paused_heat_bed_temperature_malfunction: {\n        title: 'Transmogrifier: Bed Temp Error',\n        message: 'Heat bed temperature malfunction. Check the printer before resuming.'\n    },\n    paused_front_cover_falling: {\n        title: 'Transmogrifier: Front Cover Open',\n        message: 'Front cover is open or not seated. Close it to continue.'\n    },\n    paused_ams_lost: {\n        title: 'Transmogrifier: AMS Connection Lost',\n        message: 'AMS connection lost. Check AMS unit and cables.'\n    },\n    paused_low_fan_speed_heat_break: {\n        title: 'Transmogrifier: Fan Speed Warning',\n        message: 'Heat break fan speed too low. Check for obstructions or fan failure.'\n    },\n    paused_chamber_temperature_control_error: {\n        title: 'Transmogrifier: Chamber Temp Error',\n        message: 'Chamber temperature control error. Check the printer.'\n    },\n    paused_nozzle_filament_covered_detected: {\n        title: 'Transmogrifier: Nozzle Jam Detected',\n        message: 'Filament jam detected at nozzle. Manual clearing may be needed.'\n    },\n    paused_cutter_error: {\n        title: 'Transmogrifier: Cutter Error',\n        message: 'Filament cutter error. Check and clear the cutter mechanism.'\n    },\n    paused_first_layer_error: {\n        title: 'Transmogrifier: First Layer Error',\n        message: 'First layer inspection failed. Check bed adhesion and leveling.'\n    },\n    paused_nozzle_clog: {\n        title: 'Transmogrifier: Nozzle Clog',\n        message: 'Nozzle clog detected. Clear the nozzle before resuming.'\n    },\n    paused_skipped_step: {\n        title: 'Transmogrifier: Motor Step Skipped',\n        message: 'Motor step skipped — possible obstruction or layer shift. Inspect the print.'\n    },\n    paused_user_gcode: {\n        title: 'Transmogrifier: Paused by Gcode',\n        message: 'Printer paused by a gcode command (e.g. M600 filament change).'\n    }\n};\n\nconst info = STAGE_ALERTS[msg.payload];\nif (!info) return null;\n\nmsg.payload = {\n    title: info.title,\n    message: info.message,\n    data: { sticky: true, channel: 'bambu-errors', importance: 'high' }\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "n_stage_err_notify"
+            ]
+        ]
+    },
+    {
+        "id": "n_stage_err_notify",
+        "type": "api-call-service",
+        "z": "3e6814fd0f8088e6",
+        "name": "Stage Error Notify",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_squid_9_pro",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "payload",
+        "dataType": "msg",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_squid_9_pro",
+        "x": 640,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3_hms",
+        "type": "comment",
+        "z": "3e6814fd0f8088e6",
+        "name": "── HMS Hardware Errors: error codes, severity, wiki links ──",
+        "info": "",
+        "x": 240,
+        "y": 440,
+        "wires": []
     },
     {
         "id": "1bccfb42106767e3",
@@ -10620,8 +9284,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 90,
-        "y": 300,
+        "x": 140,
+        "y": 480,
         "wires": [
             [
                 "0297f1dc72f9aaff"
@@ -10632,18 +9296,13 @@
         "id": "0297f1dc72f9aaff",
         "type": "switch",
         "z": "3e6814fd0f8088e6",
-        "name": "",
+        "name": "Has Errors?",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
             {
                 "t": "eq",
-                "v": "OK",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Problem",
+                "v": "on",
                 "vt": "str"
             },
             {
@@ -10652,55 +9311,43 @@
                 "vt": "str"
             }
         ],
-        "checkall": "true",
+        "checkall": "false",
         "repair": false,
-        "outputs": 3,
+        "outputs": 2,
         "x": 330,
-        "y": 300,
+        "y": 480,
         "wires": [
-            [],
-            [],
+            [
+                "fn_hms_format"
+            ],
             []
         ]
     },
     {
-        "id": "40f5af3788c77234",
-        "type": "switch",
+        "id": "fn_hms_format",
+        "type": "function",
         "z": "3e6814fd0f8088e6",
-        "name": "Started || Resumed",
-        "property": "data.old_state.status",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "idle",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "pause",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 530,
-        "y": 60,
+        "name": "HMS → error message",
+        "func": "const attrs = (msg.data.new_state && msg.data.new_state.attributes) || {};\nconst errors = attrs.errors || [];\nconst count = attrs.Count || errors.length;\n\nif (count === 0 || errors.length === 0) return null;\n\nconst lines = errors.map(e => {\n    const sev = e.severity ? '[' + e.severity + '] ' : '';\n    return '\\u2022 ' + sev + (e.description || e.code || 'Unknown error');\n}).join('\\n');\n\nconst wikiUrl = (errors[0] && errors[0].wiki_url) ? errors[0].wiki_url : null;\n\nmsg.payload = {\n    title: 'Transmogrifier: ' + count + ' HMS Error' + (count !== 1 ? 's' : ''),\n    message: lines,\n    data: { sticky: true, channel: 'bambu-errors', importance: 'high' }\n};\n\nif (wikiUrl) {\n    msg.payload.data.url = wikiUrl;\n    msg.payload.data.clickAction = wikiUrl;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 480,
         "wires": [
             [
-                "a80a7dc7b1808df1"
-            ],
-            [
-                "6492616e922715b8"
+                "n_hms_notify"
             ]
         ]
     },
     {
-        "id": "a80a7dc7b1808df1",
+        "id": "n_hms_notify",
         "type": "api-call-service",
         "z": "3e6814fd0f8088e6",
-        "name": "Print Started",
+        "name": "HMS Error Notify",
         "server": "db559b8fb32ae329",
         "version": 7,
         "debugenabled": false,
@@ -10710,8 +9357,8 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"message\":\"Print Started\",\"title\":\"Transmogrifier\"}",
-        "dataType": "json",
+        "data": "payload",
+        "dataType": "msg",
         "mergeContext": "",
         "mustacheAltTags": false,
         "outputProperties": [],
@@ -10719,98 +9366,50 @@
         "blockInputOverrides": false,
         "domain": "notify",
         "service": "mobile_app_squid_9_pro",
-        "x": 750,
-        "y": 40,
+        "x": 740,
+        "y": 480,
         "wires": [
             []
         ]
     },
     {
-        "id": "6492616e922715b8",
-        "type": "api-call-service",
+        "id": "c4_printerr",
+        "type": "comment",
         "z": "3e6814fd0f8088e6",
-        "name": "Print Resumed",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_squid_9_pro",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"Print Resumed\",\"title\":\"Transmogrifier\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "notify",
-        "service": "mobile_app_squid_9_pro",
-        "x": 760,
-        "y": 80,
-        "wires": [
-            []
-        ]
+        "name": "── Print Error Sensor: mid-print error codes with descriptions ──",
+        "info": "",
+        "x": 250,
+        "y": 560,
+        "wires": []
     },
     {
-        "id": "e4e201a39e381447",
-        "type": "api-call-service",
-        "z": "3e6814fd0f8088e6",
-        "name": "Print Paused",
-        "server": "db559b8fb32ae329",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_squid_9_pro",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"Print Paused\",\"title\":\"Transmogrifier\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "notify",
-        "service": "mobile_app_squid_9_pro",
-        "x": 750,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b0a54917ba9980f2",
+        "id": "trigger_print_err",
         "type": "server-state-changed",
         "z": "3e6814fd0f8088e6",
-        "name": "Transmogrifier Stage",
+        "name": "Print Error",
         "server": "db559b8fb32ae329",
         "version": 6,
         "outputs": 1,
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "sensor.x1c_00m00a2a1402639_current_stage"
+                "binary_sensor.x1c_00m00a2a1402639_print_error"
             ],
             "substring": [],
             "regex": []
         },
-        "outputInitially": true,
+        "outputInitially": false,
         "stateType": "str",
-        "ifState": "",
+        "ifState": "on",
         "ifStateType": "str",
         "ifStateOperator": "is",
         "outputOnlyOnStateChange": true,
         "for": "0",
         "forType": "num",
         "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
+        "ignorePrevStateNull": true,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
         "ignoreCurrentStateUnknown": false,
         "ignoreCurrentStateUnavailable": false,
         "outputProperties": [
@@ -10833,64 +9432,60 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 110,
-        "y": 180,
+        "x": 140,
+        "y": 600,
         "wires": [
             [
-                "a484a6b6500b8fbf"
+                "fn_print_err"
             ]
         ]
     },
     {
-        "id": "a484a6b6500b8fbf",
-        "type": "switch",
+        "id": "fn_print_err",
+        "type": "function",
         "z": "3e6814fd0f8088e6",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "idle",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "heatbed_preheating",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "cleaning_nozzle_tip",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "auto_bed_leveling",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "calibrating_extrusion",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "offline",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 6,
-        "x": 330,
-        "y": 180,
+        "name": "Print Error → message",
+        "func": "const attrs = (msg.data.new_state && msg.data.new_state.attributes) || {};\nconst err = attrs.error || {};\n\nlet message = 'A print error has occurred. Check the printer.';\nif (err.description) {\n    message = err.description;\n} else if (err.code) {\n    message = 'Error code: ' + err.code;\n}\n\nmsg.payload = {\n    title: 'Transmogrifier: Print Error',\n    message: message,\n    data: { sticky: true, channel: 'bambu-errors', importance: 'high' }\n};\n\nif (err.wiki_url) {\n    msg.payload.data.url = err.wiki_url;\n    msg.payload.data.clickAction = err.wiki_url;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 600,
         "wires": [
-            [],
-            [],
-            [],
-            [],
-            [],
+            [
+                "n_print_err_notify"
+            ]
+        ]
+    },
+    {
+        "id": "n_print_err_notify",
+        "type": "api-call-service",
+        "z": "3e6814fd0f8088e6",
+        "name": "Print Error Notify",
+        "server": "db559b8fb32ae329",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_squid_9_pro",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "payload",
+        "dataType": "msg",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_squid_9_pro",
+        "x": 600,
+        "y": 600,
+        "wires": [
             []
         ]
     }
